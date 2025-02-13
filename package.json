@@ -1,15 +1,24 @@
 {
-  "name": "esa-backend",
+  "name": "c",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. Clone the repository\r 2. cd into the cloned repository\r 3. To run the server type the command and press <kbd>Enter</kbd>",
+  "keywords": [],
+  "homepage": "https://github.com/mariana-trench-cs/ESA-Backend#readme",
+  "bugs": {
+    "url": "https://github.com/mariana-trench-cs/ESA-Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariana-trench-cs/ESA-Backend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "start": "node server",
     "dev": "nodemon server"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "cookie-parser": "^1.4.6",

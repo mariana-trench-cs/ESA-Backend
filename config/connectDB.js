@@ -6,7 +6,7 @@ const connectDB = async () => {'http://localhost:3002'
             useUnifiedTopology: true,
             useNewUrlParser: true
         });
-    } catch (err) {
+    } catch (err) {'http://localhost:3002'
         console.error(err);
     }
 }

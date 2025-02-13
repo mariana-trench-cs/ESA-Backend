@@ -41,7 +41,7 @@ app.use('/manage-room', require('./routes/manageRoom'));
 app.use('/university-exam', require('./routes/universityExam'));
 app.use('/seat-allocation', require('./routes/seatAllocation'));
 
-mongoose.connection.once('open', () => {'http://localhost:3006'
+mongoose.connection.once('open', () => {'http://localhost:3002'
     console.log('Connected to MongoDB');
-    app.listen(PORT, () => { console.log(`Server running on port 'http://localhost:3006' ${PORT}...'http://localhost:3006'`) });
+    app.listen(PORT, () => { console.log(`Server running on port 'http://localhost:3002' ${PORT}...'http://localhost:3002'`) });
 });
